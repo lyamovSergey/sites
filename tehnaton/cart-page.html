@@ -1,0 +1,136 @@
+
+<div class="cart-popup-block vh-100">
+    <section class="main-menu">
+        <div class="container">
+            <div class="row">
+                <div class="menu">
+                    <nav class="navbar pl-0 pr-0">
+                        <div class="wrapper">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="img/logo.png" alt="">
+                            </a>
+                            <div class="btn-group lang" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-sm">ENG</button>
+                                <button type="button" class="btn btn-sm activeBtn" autofocus>РУС</button>
+                            </div>
+                        </div>
+                        <div class="menuIconBlock pull-right w-auto">
+                            <div class="shopping-btn">
+                                <a href="cart-page.html">
+                                    <svg id="exit" xmlns="http://www.w3.org/2000/svg" width="63.229" height="49" viewBox="0 0 63.229 49">
+                                        <rect id="Rectangle_77" data-name="Rectangle 77" width="63.229" height="49" fill="#007dc4" />
+                                        <path id="Path_80" data-name="Path 80" d="M3.7-28.655l6.153,8.046.316.592.316-.592,6.153-8.046H19.52L11.671-18.321,19.52-8.106H16.641l-6.153-8.007-.316-.552-.316.552L3.7-8.106H.825L8.674-18.321.825-28.655Z" transform="translate(21.916 43.053)" fill="#fff" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container cart-block">
+            
+                <div class="heading-block ">
+                    <h2>КОРЗИНА</h2>
+                    <div class="sort-block">
+                        <form class="form-inline">
+                            <select name="category" id="category">
+                                <option value="spareParts">По популярности</option>
+                                <option value="instruments">От дешевых к дорогим</option>
+                                <option value="consumables">От дорогих к дешевым</option>
+                                <option value="other">По номеру ▲</option>
+                                <option value="other">По номеру ▼</option>
+                            </select>
+                            <button class="btn search-btn" type="button">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74" height="49" viewBox="0 0 74 49">
+                                    <defs>
+                                        <clipPath id="clip-path">
+                                            <rect width="74" height="49" fill="none"></rect>
+                                        </clipPath>
+                                    </defs>
+                                    <use xlink:href="#search_news_" x="0" y="0"></use>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="content-block">
+                    <div class="left-col hide-480">
+                        <p class="a">Контактные данные</p>
+                        <form action="http://for-tests2.h1n.ru/testAjax/index4.html" method="POST" id="cart-order">
+                            <input id="name" type="text" name="name" required placeholder="Имя*">
+                            <input id="email" type="email" name="email" required placeholder="E-mail*">
+                            <input id="adress" type="text" name="adress" placeholder="Адрес">
+                            <input id="phone" type="phone" name="phone" required placeholder="Телефон*">
+                            <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Комментарий"></textarea>
+                            <p>Введите свои контактные данные и мы с Вами свяжемся в течении 10 минут</p>
+                            <button id="submitButton" type="submit" disabled>Заказать</button>
+                        </form>
+                    </div>
+                    <div class="right-col">
+
+                        <div class="ajax-wrapper">
+                            <div class="heading-block">
+                                <p class="a">Ваш заказ</p>
+                            </div>
+                            <ul class="order-list mb-0">
+                                <li>
+                                    <div class="del-icon">
+                                        <button class="btn basket"></button>
+                                    </div>
+                                    <div class="img-wrapper">
+                                        <img src="img/noponyatnayaHren.jpeg" alt="">
+                                        <p>СБОРНЫЙ КОРПУС</p>
+                                    </div>
+                                    <div class="price-wrapper">
+                                        <p class="price">225.00</p>
+                                        <input class="inp-price" type="number" value="1" min="1" max="99" step="1" />
+                                        <p class="sumPrice">120.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="del-icon">
+                                        <button class="btn basket"></button>
+                                    </div>
+                                    <div class="img-wrapper">
+                                        <img src="img/noponyatnayaHren.jpeg" alt="">
+                                        <p>СБОРНЫЙ КОРПУС</p>
+                                    </div>
+                                    <div class="price-wrapper">
+                                        <p class="price">120.00</p>
+                                        <input class="inp-price" type="number" value="1" min="1" max="99" step="1" />
+                                        <p class="sumPrice">120.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="del-icon">
+                                        <button class="btn basket"></button>
+                                    </div>
+                                    <div class="img-wrapper">
+                                        <img src="img/noponyatnayaHren.jpeg" alt="">
+                                        <p>СБОРНЫЙ КОРПУС</p>
+                                    </div>
+                                    <div class="price-wrapper">
+                                        <p class="price">120.00</p>
+                                        <input class="inp-price" type="number" value="1" min="1" max="99" step="1" />
+                                        <p class="sumPrice">120.00</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="total-block">
+                            <p class="ralewayBold">ИТОГО</p>
+                            <p class="finPrice a">360.00</p>
+                            <div class="link-wrapper">
+                                <a href="#" class="toOrder">Оформить заказ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    </section>
+</div>

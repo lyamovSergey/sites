@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/style.main.css">
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
+    <script src="minFiles/script.min.js"></script>
+    <title>tehnaton</title>
+</head>
+
+<body>
+    <header>
+        <section class="main-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="menu">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="#">
+                                <img src="img/logo.png" alt="">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="btn-group lang" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-sm">ENG</button>
+                                <button type="button" class="btn btn-sm activeBtn" autofocus>РУС</button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="mainMenu">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Главная</a>
+                                    </li>
+                                    <li class="nav-item  active">
+                                        <a class="nav-link" href="catalog.html">Каталог</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="instruction.html">Инструкция</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="about.html">О компании</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="news.html">Новости</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="contacts.html">Контакты</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menuIconBlock pull-xs-right">
+                                <div class="search-btn">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="29.259" height="30.306" viewBox="0 0 29.259 30.306">
+                                            <g id="search" transform="translate(0 0)">
+                                                <path id="search-2" data-name="search" d="M29.8,27.6l-7.213-7.5a12.231,12.231,0,1,0-9.365,4.37,12.1,12.1,0,0,0,7.01-2.214L27.5,29.816A1.6,1.6,0,1,0,29.8,27.6ZM13.22,3.192a9.044,9.044,0,1,1-9.044,9.044A9.054,9.054,0,0,1,13.22,3.192Z" transform="translate(-0.984)" fill="#373737" />
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="user-btn">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22.998" height="30.235" viewBox="0 0 22.998 30.235">
+                                            <g id="man-user" transform="translate(0 0)">
+                                                <path id="Path_1" data-name="Path 1" d="M110.622,14.787c3.362,0,6.087-3.31,6.087-7.394S115.815,0,110.622,0s-6.087,3.31-6.087,7.394S107.26,14.787,110.622,14.787Z" transform="translate(-99.124)" fill="#373737" />
+                                                <path id="Path_2" data-name="Path 2" d="M41.9,300.5c0-.249,0-.07,0,0Z" transform="translate(-41.895 -274.423)" fill="#373737" />
+                                                <path id="Path_3" data-name="Path 3" d="M308.085,301.712c0-.068,0-.473,0,0Z" transform="translate(-285.089 -275.441)" fill="#373737" />
+                                                <path id="Path_4" data-name="Path 4" d="M64.89,188.163c-.113-7.113-1.042-9.14-8.151-10.423a4.262,4.262,0,0,1-3.333,1.275,4.262,4.262,0,0,1-3.333-1.275c-7.032,1.269-8.017,3.266-8.147,10.192-.011.566-.016.6-.017.53,0,.123,0,.351,0,.747,0,0,1.693,3.412,11.5,3.412s11.5-3.412,11.5-3.412c0-.255,0-.432,0-.553A4.59,4.59,0,0,1,64.89,188.163Z" transform="translate(-41.907 -162.385)" fill="#373737" />
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="shopping-btn">
+                                    <a href="cart-page.html">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="30.534" height="30.533" viewBox="0 0 30.534 30.533">
+                                            <g id="shopping-cart" transform="translate(0.001 0)">
+                                                <g id="shopping-cart-2" data-name="shopping-cart">
+                                                    <path id="Path_5" data-name="Path 5" d="M9.16,24.427a3.053,3.053,0,1,0,3.053,3.053A3.062,3.062,0,0,0,9.16,24.427ZM0,0V3.053H3.053l5.5,11.6L6.412,18.32a5.424,5.424,0,0,0-.305,1.527A3.062,3.062,0,0,0,9.16,22.9H27.48V19.847H9.771a.328.328,0,0,1-.305-.305v-.153l1.374-2.6h11.3a2.784,2.784,0,0,0,2.6-1.527l5.5-9.923a.84.84,0,0,0,.305-.763,1.442,1.442,0,0,0-1.527-1.527H6.412L5.038,0ZM24.427,24.427A3.053,3.053,0,1,0,27.48,27.48,3.062,3.062,0,0,0,24.427,24.427Z" fill="#373737" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="pt-0">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="header-banner">
+                        <div class="mainBaner-container">
+                            <div class="text-block">
+                                <p>Твой проводник в мир техники</p>
+                            </div>
+                            <div class="form-wrapper">
+                                <form class="form-inline">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <button class="btn search-btn" type="button">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 29.259 30.306">
+                                                    <use xlink:href="#searchBtn" x="0" y="0" />
+                                                </svg>
+                                            </button>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Поиск" aria-label="" aria-describedby="basic-addon1">
+                                    </div>
+                                    <select name="category" id="category">
+                                        <option value="spareParts">Запчасти</option>
+                                        <option value="instruments">Инструменты</option>
+                                        <option value="consumables">Расходники</option>
+                                        <option value="other">Дополнительно</option>
+                                    </select>
+                                </form>
+                            </div>
+                            <div class="scrollMouse hide-mouse">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18.282" height="41.546" viewBox="0 0 18.282 41.546">
+                                    <g id="next" transform="translate(-938.363 -935.545)">
+                                        <g id="next-2" data-name="next" transform="translate(955.347 968.758) rotate(90)">
+                                            <path id="Path_6" data-name="Path 6" d="M8.2,7.573.763.131A.446.446,0,0,0,.131.763L7.256,7.887.131,15.011a.445.445,0,0,0,0,.631.449.449,0,0,0,.314.132.436.436,0,0,0,.314-.132L8.2,8.2A.444.444,0,0,0,8.2,7.573Z" transform="translate(0 0)" fill="#007dc4" />
+                                        </g>
+                                        <g id="mouse" transform="translate(938.363 935.545)">
+                                            <g id="Group_45" data-name="Group 45" transform="translate(0)">
+                                                <g id="Group_44" data-name="Group 44">
+                                                    <path id="Path_27" data-name="Path 27" d="M44.21,0a9.149,9.149,0,0,0-9.141,9.137v9.15a9.141,9.141,0,0,0,18.282,0V9.137A9.149,9.149,0,0,0,44.21,0Zm8.125,18.287a8.125,8.125,0,0,1-16.251,0V9.137a8.125,8.125,0,0,1,16.251,0Z" transform="translate(-35.069)" fill="#007dc4" />
+                                                    <path id="Path_28" data-name="Path 28" d="M101.818,23.379a.508.508,0,0,0-.508.508v4.6a.508.508,0,0,0,1.016,0v-4.6A.508.508,0,0,0,101.818,23.379Z" transform="translate(-92.677 -20.332)" fill="#007dc4" />
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="main-content">
+                        <div class="heading-block open-catalog-heading pt-0">
+                            <form class="form-inline search-form">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <button class="btn search-btn" type="submit">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74" height="49" viewBox="0 0 74 49">
+                                                <defs>
+                                                    <clipPath id="clip-path">
+                                                        <rect width="74" height="49" fill="none" />
+                                                    </clipPath>
+                                                </defs>
+                                                <use xlink:href="#search_news_" x="0" y="0" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Поиск по каталогу" aria-label="" aria-describedby="basic-addon1">
+                                </div>
+                            </form>
+                            <h2>ЗАПЧАСТИ</h2>
+                            <div class="icon-block">
+                                <div class="w30 active">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="27.744" height="27.745" viewBox="0 0 27.744 27.745">
+                                        <g id="Group_16" data-name="Group 16" transform="translate(-1741 -1069)">
+                                            <rect id="Rectangle_34" data-name="Rectangle 34" width="7.745" height="7.745" transform="translate(1741 1069)" fill="#bebebe" />
+                                            <rect id="Rectangle_36" data-name="Rectangle 36" width="7.745" height="7.745" transform="translate(1751 1069)" fill="#bebebe" />
+                                            <rect id="Rectangle_37" data-name="Rectangle 37" width="7.745" height="7.745" transform="translate(1761 1069)" fill="#bebebe" />
+                                            <rect id="Rectangle_38" data-name="Rectangle 38" width="7.745" height="7.745" transform="translate(1761 1079)" fill="#bebebe" />
+                                            <rect id="Rectangle_43" data-name="Rectangle 43" width="7.745" height="7.745" transform="translate(1761 1089)" fill="#bebebe" />
+                                            <rect id="Rectangle_39" data-name="Rectangle 39" width="7.745" height="7.745" transform="translate(1751 1079)" fill="#bebebe" />
+                                            <rect id="Rectangle_42" data-name="Rectangle 42" width="7.745" height="7.745" transform="translate(1751 1089)" fill="#bebebe" />
+                                            <rect id="Rectangle_40" data-name="Rectangle 40" width="7.745" height="7.745" transform="translate(1741 1079)" fill="#bebebe" />
+                                            <rect id="Rectangle_41" data-name="Rectangle 41" width="7.745" height="7.745" transform="translate(1741 1089)" fill="#bebebe" />
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="w50">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28.475" height="27.744" viewBox="0 0 28.475 27.744">
+                                        <g id="Group_15" data-name="Group 15" transform="translate(-1740.999 -1069)">
+                                            <rect id="Rectangle_32" data-name="Rectangle 32" width="11.682" height="11.682" transform="translate(1757.793 1085.063)" fill="#bebebe" />
+                                            <rect id="Rectangle_33" data-name="Rectangle 33" width="11.682" height="11.682" transform="translate(1741 1085.063)" fill="#bebebe" />
+                                            <rect id="Rectangle_34" data-name="Rectangle 34" width="11.682" height="11.682" transform="translate(1741 1069)" fill="#bebebe" />
+                                            <rect id="Rectangle_35" data-name="Rectangle 35" width="11.682" height="11.682" transform="translate(1757.793 1069)" fill="#bebebe" />
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="w100">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28.682" height="27.682" viewBox="0 0 28.682 27.682">
+                                        <g id="Group_17" data-name="Group 17" transform="translate(-1740.999 -1069)">
+                                            <rect id="Rectangle_34" data-name="Rectangle 34" width="28.682" height="18.682" transform="translate(1741 1069)" fill="#bebebe" />
+                                            <rect id="Rectangle_44" data-name="Rectangle 44" width="28.682" height="3.682" transform="translate(1741 1093)" fill="#bebebe" />
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="sort-block">
+                                <form class="form-inline">
+                                    <select name="category" id="category">
+                                        <option value="spareParts">По популярности</option>
+                                        <option value="instruments">От дешевых к дорогим</option>
+                                        <option value="consumables">От дорогих к дешевым</option>
+                                        <option value="other">По номеру &#9650;</option>
+                                        <option value="other">По номеру &#9660;</option>
+                                    </select>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="content-wrapper">
+                            <aside>
+                                <div class="accordeon-wrapper">
+                                    <div id="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="panel panel-default active">
+                                            <div class="panel-heading " role="tab" id="headingOne">
+                                                <button class="btn accordeon-btn " data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                    <div class="icon-btn-wrapper">
+                                                        <svg class="icon-btn" xmlns="http://www.w3.org/2000/svg" width="39.34" height="39.339" viewBox="0 0 39.34 39.339">
+                                                            <g id="settings-work-tool" transform="translate(-0.002 0)">
+                                                                <g id="Group_29" data-name="Group 29" transform="translate(0 0)">
+                                                                    <path id="Path_16" data-name="Path 16" d="M39.218,17.486a1.281,1.281,0,0,0-1.264-.969A4.343,4.343,0,0,1,34.98,8.958a1.092,1.092,0,0,0,.12-1.483,19.464,19.464,0,0,0-3.116-3.147,1.1,1.1,0,0,0-1.495.121,4.534,4.534,0,0,1-4.906,1.1,4.369,4.369,0,0,1-2.657-4.27A1.091,1.091,0,0,0,21.961.131,19.638,19.638,0,0,0,17.536.119a1.1,1.1,0,0,0-.974,1.125,4.376,4.376,0,0,1-2.693,4.2A4.546,4.546,0,0,1,9,4.333a1.1,1.1,0,0,0-1.484-.125A19.537,19.537,0,0,0,4.333,7.354a1.094,1.094,0,0,0,.117,1.5,4.359,4.359,0,0,1,1.1,4.908,4.547,4.547,0,0,1-4.28,2.659,1.069,1.069,0,0,0-1.136.966,19.7,19.7,0,0,0-.008,4.473,1.3,1.3,0,0,0,1.29.967,4.314,4.314,0,0,1,4.047,2.7,4.374,4.374,0,0,1-1.1,4.864,1.093,1.093,0,0,0-.12,1.482,19.534,19.534,0,0,0,3.112,3.148,1.094,1.094,0,0,0,1.5-.119,4.527,4.527,0,0,1,4.9-1.1,4.362,4.362,0,0,1,2.661,4.269,1.093,1.093,0,0,0,.965,1.149,19.576,19.576,0,0,0,4.425.012,1.1,1.1,0,0,0,.974-1.126A4.372,4.372,0,0,1,25.472,33.9a4.539,4.539,0,0,1,4.871,1.108,1.1,1.1,0,0,0,1.484.124,19.583,19.583,0,0,0,3.182-3.146,1.092,1.092,0,0,0-.118-1.495,4.359,4.359,0,0,1-1.1-4.907,4.4,4.4,0,0,1,4.024-2.666l.243.006a1.1,1.1,0,0,0,1.151-.964A19.687,19.687,0,0,0,39.218,17.486ZM19.7,26.272a6.561,6.561,0,1,1,6.561-6.561A6.568,6.568,0,0,1,19.7,26.272Z" transform="translate(-0.003 0)" fill="#fff" fill-rule="evenodd" />
+                                                                </g>
+                                                            </g>
+                                                        </svg>
+                                                        ЗАПЧАСТИ
+                                                    </div>
+                                                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 13.592 7.18">
+                                                        <g class="next" transform="translate(6.592 -113.556) rotate(90)">
+                                                            <path id="Path_6" data-name="Path 6" d="M119.625,6.525,113.213.113a.385.385,0,0,0-.544.544L118.807,6.8l-6.138,6.138a.386.386,0,0,0,.271.658.375.375,0,0,0,.271-.114l6.412-6.412A.383.383,0,0,0,119.625,6.525Z" transform="translate(1 -7)" fill="#fff" />
+                                                        </g>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <div id="collapseOne" class="panel-collapse collapse show" data-parent="#accordion" role="tabpanel" aria-expanded="true" aria-labelledby="headingOne">
+                                                <ul>
+                                                    <li><a class="p" href="">Dremel</a></li>
+                                                    <li><a class="p" href="">ABAC</a></li>
+                                                    <li><a class="p" href="">Kress</a></li>
+                                                    <li><a class="p" href="">Sparky Professional</a></li>
+                                                    <li><a class="p" href="">Ryobi</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headingTwo">
+                                                <button class="btn accordeon-btn" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    <div class="icon-btn-wrapper">
+                                                        <svg class="icon-btn" xmlns="http://www.w3.org/2000/svg" width="36.094" height="39.339" viewBox="0 0 36.094 39.339">
+                                                            <g id="tools-cross-settings-symbol-for-interface" transform="translate(-15.138 0)">
+                                                                <path id="Path_17" data-name="Path 17" d="M50.187,33.129,37.776,20.451a3.5,3.5,0,0,0-.369-.324l2.2-2.364a4.5,4.5,0,0,0,.317-.362,8.071,8.071,0,0,0,8.688-1.9,8.448,8.448,0,0,0,2.365-6.633.718.718,0,0,0-.461-.616.7.7,0,0,0-.741.167L45.8,12.479l-4.027-1.037L40.626,7.2,44.6,3.136a.732.732,0,0,0,.165-.758.709.709,0,0,0-.6-.472A8.072,8.072,0,0,0,37.67,4.323a8.5,8.5,0,0,0-1.865,8.869c-.12.1-.239.213-.355.331L32.215,16.7l-5.941-6.068a2.2,2.2,0,0,0-.235-.206c.07-.125.138-.254.2-.387,1.255.247,3.549-2.249,5.5-4.238L26.06,0c-2.538,2.593-4.391,4.333-4.151,5.614a5.541,5.541,0,0,0-1.465,1.02l-.8.816A3.474,3.474,0,0,0,18.7,9.33c-.078.09-.156.186-.235.288l-.3.382c-.008.009-.034.047-.041.057l-.27.386c-.169.23-.317.48-.459.722q-.079.134-.161.269c-.009.015-.017.031-.025.046l-.12.231c-.145.278-.3.565-.424.882l-.021.05a9.719,9.719,0,0,0-.419,1.155l-.053.175c-.043.144-.088.287-.128.459l-.11.558a6.522,6.522,0,0,0-.134,1l-.016.2a5.074,5.074,0,0,0-.018.877c0,.088.007.174.01.291,0,.049,0,.1,0,.142a2.891,2.891,0,0,0,.028.391l.069.453c.015.088.027.173.039.254a3.9,3.9,0,0,0,.107.555l.29,1.029a.68.68,0,0,0,.7.5.67.67,0,0,0,.433-.2.694.694,0,0,0,.192-.39l.151-1.046a2.906,2.906,0,0,1,.082-.333c.026-.089.051-.18.07-.258l.107-.39a1.1,1.1,0,0,1,.061-.157c.021-.049.043-.1.061-.149.036-.083.07-.166.1-.251a2.919,2.919,0,0,1,.224-.478c.041-.071.08-.142.119-.214a3.568,3.568,0,0,1,.305-.495l.021-.028.253-.356c.052-.067.11-.13.166-.194.04-.045.08-.09.131-.149a5.088,5.088,0,0,1,.493-.5l.09-.083c.125-.119.27-.23.422-.349l.183-.141c.077-.051.151-.1.225-.152a3.938,3.938,0,0,1,.394-.25l.3-.174.3-.152c.106-.056.21-.1.305-.138l.165-.071c.053-.019.1-.039.153-.057a1.971,1.971,0,0,1,.2-.068l.082-.019a2.261,2.261,0,0,0,.319.415l5.877,6L16.456,32.158l-.014.015a3.853,3.853,0,0,0-.254,5.525c1.561,1.595,3.7,1.186,5.264-.408l.019-.02,11.068-11.9c.065.078.129.157.2.231L45.15,38.273a3.509,3.509,0,0,0,5.037,0A3.694,3.694,0,0,0,50.187,33.129ZM19.832,35.975a1.45,1.45,0,0,1-2.083,0,1.527,1.527,0,0,1,0-2.127,1.451,1.451,0,0,1,2.083,0A1.528,1.528,0,0,1,19.832,35.975Z" fill="#373737" />
+                                                            </g>
+                                                        </svg>
+                                                        ИНСТРУМЕНТЫ
+                                                    </div>
+                                                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 13.592 7.18">
+                                                        <g class="next" transform="translate(6.592 -113.556) rotate(90)">
+                                                            <path id="Path_6" data-name="Path 6" d="M119.625,6.525,113.213.113a.385.385,0,0,0-.544.544L118.807,6.8l-6.138,6.138a.386.386,0,0,0,.271.658.375.375,0,0,0,.271-.114l6.412-6.412A.383.383,0,0,0,119.625,6.525Z" transform="translate(1 -7)" fill="#fff" />
+                                                        </g>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <div id="collapseTwo" class="panel-collapse collapse" data-parent="#accordion" role="tabpanel" aria-labelledby="headingTwo">
+                                                <ul>
+                                                    <li><a class="p" href="">Dremel</a></li>
+                                                    <li><a class="p" href="">ABAC</a></li>
+                                                    <li><a class="p" href="">Kress</a></li>
+                                                    <li><a class="p" href="">Sparky Professional</a></li>
+                                                    <li><a class="p" href="">Ryobi</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headingThree">
+                                                <button class="btn accordeon-btn" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    <div class="icon-btn-wrapper">
+                                                        <svg class="icon-btn" xmlns="http://www.w3.org/2000/svg" width="33.6" height="41.695" viewBox="0 0 33.6 41.695">
+                                                            <g id="screw" transform="translate(-0.172 10.819) rotate(-30)">
+                                                                <path id="Path_18" data-name="Path 18" d="M73.34,255.551l10-9.124v-2.353l-10,9.124Zm0,0" transform="translate(-67.424 -224.998)" fill="#373737" />
+                                                                <path id="Path_19" data-name="Path 19" d="M73.34,310.41l10-9.124v-2.352l-10,9.124Zm0,0" transform="translate(-67.424 -275.571)" fill="#373737" />
+                                                                <path id="Path_20" data-name="Path 20" d="M73.339,363.245a2.839,2.839,0,0,0,.48,1.581l9.524-8.69v-2.351l-10,9.124Zm0,0" transform="translate(-67.424 -326.135)" fill="#373737" />
+                                                                <path id="Path_21" data-name="Path 21" d="M101.734,408.617l-8.445,7.706a2.818,2.818,0,0,0,1.3.327H95.5l6.23-5.68Zm0,0" transform="translate(-85.814 -376.681)" fill="#373737" />
+                                                                <path id="Path_22" data-name="Path 22" d="M73.34,200.7l10-9.124v-2.352l-10,9.124Zm0,0" transform="translate(-67.424 -174.431)" fill="#373737" />
+                                                                <path id="Path_23" data-name="Path 23" d="M152.886,464.349v-.888l-4.108,3.746h1.25A2.861,2.861,0,0,0,152.886,464.349Zm0,0" transform="translate(-136.966 -427.238)" fill="#373737" />
+                                                                <path id="Path_24" data-name="Path 24" d="M.2,6.384V7.813a.715.715,0,0,0,.714.715H20.922a.715.715,0,0,0,.715-.715V6.384A6.459,6.459,0,0,0,15.92,0V1.382a1.431,1.431,0,0,1-1.429,1.429H7.345A1.431,1.431,0,0,1,5.916,1.382V0A6.459,6.459,0,0,0,.2,6.384Zm0,0" fill="#373737" />
+                                                                <path id="Path_25" data-name="Path 25" d="M83.344,127.395h-10v12.021l10-9.124Zm0,0" transform="translate(-67.424 -117.438)" fill="#373737" />
+                                                            </g>
+                                                        </svg>
+                                                        КОМПЛЕКТУЮЩИЕ
+                                                    </div>
+                                                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 13.592 7.18">
+                                                        <g class="next" transform="translate(6.592 -113.556) rotate(90)">
+                                                            <path id="Path_6" data-name="Path 6" d="M119.625,6.525,113.213.113a.385.385,0,0,0-.544.544L118.807,6.8l-6.138,6.138a.386.386,0,0,0,.271.658.375.375,0,0,0,.271-.114l6.412-6.412A.383.383,0,0,0,119.625,6.525Z" transform="translate(1 -7)" fill="#fff" />
+                                                        </g>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse" data-parent="#accordion" role="tabpanel" aria-labelledby="headingThree">
+                                                <ul>
+                                                    <li><a class="p" href="">Dremel</a></li>
+                                                    <li><a class="p" href="">ABAC</a></li>
+                                                    <li><a class="p" href="">Kress</a></li>
+                                                    <li><a class="p" href="">Sparky Professional</a></li>
+                                                    <li><a class="p" href="">Ryobi</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headingFour">
+                                                <button class="btn accordeon-btn" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                    <div class="icon-btn-wrapper">
+                                                        <svg class="icon-btn" xmlns="http://www.w3.org/2000/svg" width="33.6" height="41.695" viewBox="0 0 28.475 27.744">
+                                                            <g id="Group_15" data-name="Group 15" transform="translate(-1740.999 -1069)">
+                                                                <rect id="Rectangle_32" data-name="Rectangle 32" width="11.682" height="11.682" transform="translate(1757.793 1085.063)" fill="#373737" />
+                                                                <rect id="Rectangle_33" data-name="Rectangle 33" width="11.682" height="11.682" transform="translate(1741 1085.063)" fill="#373737" />
+                                                                <rect id="Rectangle_34" data-name="Rectangle 34" width="11.682" height="11.682" transform="translate(1741 1069)" fill="#373737" />
+                                                                <rect id="Rectangle_35" data-name="Rectangle 35" width="11.682" height="11.682" transform="translate(1757.793 1069)" fill="#373737" />
+                                                            </g>
+                                                        </svg>
+                                                        ДРУГИЕ УСЛУГИ
+                                                    </div>
+                                                    <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 13.592 7.18">
+                                                        <g class="next" transform="translate(6.592 -113.556) rotate(90)">
+                                                            <path id="Path_6" data-name="Path 6" d="M119.625,6.525,113.213.113a.385.385,0,0,0-.544.544L118.807,6.8l-6.138,6.138a.386.386,0,0,0,.271.658.375.375,0,0,0,.271-.114l6.412-6.412A.383.383,0,0,0,119.625,6.525Z" transform="translate(1 -7)" fill="#fff" />
+                                                        </g>
+                                                    </svg>
+                                                </button>
+                                            </div>
+                                            <div id="collapseFour" class="panel-collapse collapse" data-parent="#accordion" role="tabpanel" aria-labelledby="headingFour">
+                                                <ul>
+                                                    <li><a class="p" href="">Dremel</a></li>
+                                                    <li><a class="p" href="">ABAC</a></li>
+                                                    <li><a class="p" href="">Kress</a></li>
+                                                    <li><a class="p" href="">Sparky Professional</a></li>
+                                                    <li><a class="p" href="">Ryobi</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+                            <div class="content-block">
+                                <div class="wrapper-tems w30">
+                                    <div class="catalog-item">
+                                        <div class="img-wrapper">
+                                            <img src="img/dremel.png" alt="">
+                                        </div>
+                                        <div class="discription-wrapper">
+                                            <h3 class="a">Dremel</h3>
+                                            <p>Коротко о производителе</p>
+                                        </div>
+                                        <a href="card.html">Выбрать</a>
+                                    </div>
+                                    <div class="catalog-item">
+                                        <div class="img-wrapper">
+                                            <img src="img/dremel.png" alt="">
+                                        </div>
+                                        <div class="discription-wrapper">
+                                            <h3 class="a">Dremel</h3>
+                                            <p>Коротко о производителе</p>
+                                        </div>
+                                        <a href="">Выбрать</a>
+                                    </div>
+                                    <div class="catalog-item">
+                                        <div class="img-wrapper">
+                                            <img src="img/dremel.png" alt="">
+                                        </div>
+                                        <div class="discription-wrapper">
+                                            <h3 class="a">Dremel</h3>
+                                            <p>Коротко о производителе</p>
+                                        </div>
+                                        <a href="">Выбрать</a>
+                                    </div>
+                                    <div class="catalog-item">
+                                        <div class="img-wrapper">
+                                            <img src="img/dremel.png" alt="">
+                                        </div>
+                                        <div class="discription-wrapper">
+                                            <h3 class="a">Dremel</h3>
+                                            <p>Коротко о производителе</p>
+                                        </div>
+                                        <a href="">Выбрать</a>
+                                    </div>
+                                    <div class="catalog-item">
+                                        <div class="img-wrapper">
+                                            <img src="img/dremel.png" alt="">
+                                        </div>
+                                        <div class="discription-wrapper">
+                                            <h3 class="a">Dremel</h3>
+                                            <p>Коротко о производителе</p>
+                                        </div>
+                                        <a href="">Выбрать</a>
+                                    </div>
+                                    <div class="catalog-item">
+                                        <div class="img-wrapper">
+                                            <img src="img/dremel.png" alt="">
+                                        </div>
+                                        <div class="discription-wrapper">
+                                            <h3 class="a">Dremel</h3>
+                                            <p>Коротко о производителе</p>
+                                        </div>
+                                        <a href="">Выбрать</a>
+                                    </div>
+                                    <div class="catalog-item">
+                                        <div class="img-wrapper">
+                                            <img src="img/dremel.png" alt="">
+                                        </div>
+                                        <div class="discription-wrapper">
+                                            <h3 class="a">Dremel</h3>
+                                            <p>Коротко о производителе</p>
+                                        </div>
+                                        <a href="">Выбрать</a>
+                                    </div>
+                                    <div class="catalog-item">
+                                        <div class="img-wrapper">
+                                            <img src="img/dremel.png" alt="">
+                                        </div>
+                                        <div class="discription-wrapper">
+                                            <h3 class="a">Dremel</h3>
+                                            <p>Коротко о производителе</p>
+                                        </div>
+                                        <a href="">Выбрать</a>
+                                    </div>
+                                    <div class="catalog-item">
+                                        <div class="img-wrapper">
+                                            <img src="img/dremel.png" alt="">
+                                        </div>
+                                        <div class="discription-wrapper">
+                                            <h3 class="a">Dremel</h3>
+                                            <p>Коротко о производителе</p>
+                                        </div>
+                                        <a href="">Выбрать</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="paganation-wrapper">
+                        <nav aria-label="News navigation">
+                            <ul class="pagination">
+                                <li class="page-item disabled">
+                                    <a class="page-link" href="#" tabindex="-1" aria-label="Previous">
+                                        <span aria-hidden="true">&larr;</span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                </li>
+                                <li class="page-item active">
+                                    <a class="page-link" href="#">1 <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#" aria-label="Next">
+                                        <span aria-hidden="true">&rarr;</span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a href="" class="operator">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="33.834px" height="33.834px" viewBox="0 0 33.834 33.834" xml:space="preserve">
+                <use xlink:href="#operator" x="0" y="0" />
+            </svg>
+        </a>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-wrapper">
+                    <div class="footer-logo">
+                        <a href="">
+                            <img src="img/techno_log.png" alt="">
+                        </a>
+                    </div>
+                    <div class="footer-menu-list">
+                        <ul class="firstMenu">
+                            <li><a href="index.html">Главная</a></li>
+                            <li class="active"><a href="catalog.html">Каталог</a></li>
+                            <li><a href="instruction.html">Инструкция</a></li>
+                            <li><a href="about.html">О компании</a></li>
+                            <li><a href="news.html">Новости</a></li>
+                            <li><a href="catalog.html">Контакты</a></li>
+                        </ul>
+                        <ul class="secondMenu">
+                            <li class="active"><a href="catalog-open.html">Запчасти</a></li>
+                            <li><a href="">Инструменты</a></li>
+                            <li><a href="">Комплектующие</a></li>
+                            <li><a href="">Другие услуги</a></li>
+                        </ul>
+                    </div>
+                    <p class="rightReserved">© 2009–2012 Все права защищены и
+                        принадлежат компании «Технатон»</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- svg -->
+    <div class="svg-container">
+        <svg xmlns="http://www.w3.org/2000/svg" width="29.259" height="30.306" viewBox="0 0 29.259 30.306">
+            <g id="searchBtn" transform="translate(0 0)">
+                <path id="search-2" data-name="search" d="M29.8,27.6l-7.213-7.5a12.231,12.231,0,1,0-9.365,4.37,12.1,12.1,0,0,0,7.01-2.214L27.5,29.816A1.6,1.6,0,1,0,29.8,27.6ZM13.22,3.192a9.044,9.044,0,1,1-9.044,9.044A9.054,9.054,0,0,1,13.22,3.192Z" transform="translate(-0.984)" fill="#7A7A7A" />
+            </g>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="22.998" height="30.235" viewBox="0 0 22.998 30.235">
+            <g id="man-user" transform="translate(0 0)">
+                <path id="Path_1" data-name="Path 1" d="M110.622,14.787c3.362,0,6.087-3.31,6.087-7.394S115.815,0,110.622,0s-6.087,3.31-6.087,7.394S107.26,14.787,110.622,14.787Z" transform="translate(-99.124)" fill="#373737" />
+                <path id="Path_2" data-name="Path 2" d="M41.9,300.5c0-.249,0-.07,0,0Z" transform="translate(-41.895 -274.423)" fill="#373737" />
+                <path id="Path_3" data-name="Path 3" d="M308.085,301.712c0-.068,0-.473,0,0Z" transform="translate(-285.089 -275.441)" fill="#373737" />
+                <path id="Path_4" data-name="Path 4" d="M64.89,188.163c-.113-7.113-1.042-9.14-8.151-10.423a4.262,4.262,0,0,1-3.333,1.275,4.262,4.262,0,0,1-3.333-1.275c-7.032,1.269-8.017,3.266-8.147,10.192-.011.566-.016.6-.017.53,0,.123,0,.351,0,.747,0,0,1.693,3.412,11.5,3.412s11.5-3.412,11.5-3.412c0-.255,0-.432,0-.553A4.59,4.59,0,0,1,64.89,188.163Z" transform="translate(-41.907 -162.385)" fill="#373737" />
+            </g>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30.534" height="30.533" viewBox="0 0 30.534 30.533">
+            <g id="shopping-cart" transform="translate(0.001 0)">
+                <g id="shopping-cart-2" data-name="shopping-cart">
+                    <path id="Path_5" data-name="Path 5" d="M9.16,24.427a3.053,3.053,0,1,0,3.053,3.053A3.062,3.062,0,0,0,9.16,24.427ZM0,0V3.053H3.053l5.5,11.6L6.412,18.32a5.424,5.424,0,0,0-.305,1.527A3.062,3.062,0,0,0,9.16,22.9H27.48V19.847H9.771a.328.328,0,0,1-.305-.305v-.153l1.374-2.6h11.3a2.784,2.784,0,0,0,2.6-1.527l5.5-9.923a.84.84,0,0,0,.305-.763,1.442,1.442,0,0,0-1.527-1.527H6.412L5.038,0ZM24.427,24.427A3.053,3.053,0,1,0,27.48,27.48,3.062,3.062,0,0,0,24.427,24.427Z" fill="#007dc4" />
+                </g>
+            </g>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="18.282" height="41.546" viewBox="0 0 18.282 41.546">
+            <g id="next" transform="translate(-938.363 -935.545)">
+                <g id="next-2" data-name="next" transform="translate(955.347 968.758) rotate(90)">
+                    <path id="Path_6" data-name="Path 6" d="M8.2,7.573.763.131A.446.446,0,0,0,.131.763L7.256,7.887.131,15.011a.445.445,0,0,0,0,.631.449.449,0,0,0,.314.132.436.436,0,0,0,.314-.132L8.2,8.2A.444.444,0,0,0,8.2,7.573Z" transform="translate(0 0)" fill="#007dc4" />
+                </g>
+                <g id="mouse" transform="translate(938.363 935.545)">
+                    <g id="Group_45" data-name="Group 45" transform="translate(0)">
+                        <g id="Group_44" data-name="Group 44">
+                            <path id="Path_27" data-name="Path 27" d="M44.21,0a9.149,9.149,0,0,0-9.141,9.137v9.15a9.141,9.141,0,0,0,18.282,0V9.137A9.149,9.149,0,0,0,44.21,0Zm8.125,18.287a8.125,8.125,0,0,1-16.251,0V9.137a8.125,8.125,0,0,1,16.251,0Z" transform="translate(-35.069)" fill="#007dc4" />
+                            <path id="Path_28" data-name="Path 28" d="M101.818,23.379a.508.508,0,0,0-.508.508v4.6a.508.508,0,0,0,1.016,0v-4.6A.508.508,0,0,0,101.818,23.379Z" transform="translate(-92.677 -20.332)" fill="#007dc4" />
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </svg>
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="33.834px" height="33.834px" viewBox="0 0 33.834 33.834" xml:space="preserve">
+            <g id="operator">
+                <path d="M32.253,29.334v4.5H1.581v-4.501c0-2.125,1.832-4.741,4.07-5.804l4.98-2.366l3.457,7.204l1.77-4.799
+        c0.349,0.066,0.695,0.154,1.059,0.154s0.709-0.088,1.059-0.154l1.68,4.563l3.389-7.048l5.141,2.445
+        C30.421,24.591,32.253,27.207,32.253,29.334z M6.105,13.562v-3.25c0-0.551,0.287-1.034,0.72-1.312c0.581-5.058,4.883-9,10.094-9
+        s9.514,3.942,10.096,9c0.432,0.278,0.719,0.761,0.719,1.312v3.25c0,0.863-0.699,1.563-1.563,1.563s-1.563-0.7-1.563-1.563v-0.683
+        c-0.846,4.255-3.961,8.205-7.688,8.205c-3.727,0-6.842-3.95-7.688-8.205v0.683c0,0.7-0.465,1.286-1.1,1.485
+        c0.622,2.117,2.002,3.946,3.908,5.146c0.352-0.116,0.796-0.094,1.227,0.13c0.692,0.36,1.045,1.06,0.783,1.56
+        c-0.261,0.5-1.033,0.612-1.729,0.251c-0.508-0.265-0.83-0.71-0.864-1.126c-2.183-1.396-3.731-3.533-4.37-5.998
+        C6.513,14.78,6.105,14.22,6.105,13.562z M7.89,8.635c0.047,0.003,0.092,0.004,0.137,0.021C8.14,8.698,8.222,8.779,8.279,8.874
+        c0.339,0.144,0.609,0.407,0.775,0.733C9.515,5.286,12.855,3,16.917,3c4.062,0,7.402,2.286,7.863,6.607
+        c0.229-0.449,0.664-0.77,1.185-0.837c-0.676-4.393-4.47-7.771-9.048-7.771C12.386,1,8.622,4.309,7.89,8.635z" />
+            </g>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74" height="49" viewBox="0 0 74 49">
+            <defs>
+                <clipPath id="clip-path">
+                    <rect width="74" height="49" fill="none" />
+                </clipPath>
+            </defs>
+            <g id="search_news_" data-name="поиск (news)" clip-path="url(#clip-path)">
+                <g id="Group_310" data-name="Group 310">
+                    <g id="Group_309" data-name="Group 309">
+                        <rect id="Rectangle_49" data-name="Rectangle 49" width="74" height="49" fill="#d95050" />
+                    </g>
+                </g>
+                <g id="Group_311" data-name="Group 311">
+                    <path id="search" d="M22.541,20.652l-5.4-5.612a9.151,9.151,0,1,0-7.007,3.269,9.056,9.056,0,0,0,5.245-1.657l5.437,5.655a1.194,1.194,0,1,0,1.721-1.655ZM10.138,2.388A6.766,6.766,0,1,1,3.372,9.154,6.774,6.774,0,0,1,10.138,2.388Z" transform="translate(25.814 13.185)" fill="#fff" />
+                </g>
+            </g>
+        </svg>
+    </div>
+</body>
+
+</html>

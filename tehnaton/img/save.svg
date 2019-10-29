@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62.669" height="49" viewBox="0 0 62.669 49">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="62.669" height="49" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Сохранить" clip-path="url(#clip-path)">
+    <rect id="Rectangle_77" data-name="Rectangle 77" width="62.669" height="49" fill="#4fc179"/>
+    <g id="save" transform="translate(19.867 12.963)">
+      <rect id="Rectangle_82" data-name="Rectangle 82" width="2.825" height="4.709" transform="translate(13.214 2.355)" fill="#fff"/>
+      <path id="Path_88" data-name="Path 88" d="M19.06,0H.5V23.074H23.1V4.043ZM5.209.942H17.453V8.476H5.209ZM18.865,22.133H4.267V12.244h14.6Z" fill="#fff"/>
+      <path id="Path_89" data-name="Path 89" d="M12.971,30.942h3.3a.471.471,0,0,0,0-.942h-3.3a.471.471,0,1,0,0,.942Z" transform="translate(-6.349 -15.873)" fill="#fff"/>
+      <path id="Path_90" data-name="Path 90" d="M12.971,34.942H17.68a.471.471,0,1,0,0-.942H12.971a.471.471,0,1,0,0,.942Z" transform="translate(-6.349 -17.989)" fill="#fff"/>
+      <path id="Path_91" data-name="Path 91" d="M25.971,34.948a.486.486,0,0,0,.334-.137.478.478,0,0,0,0-.669.487.487,0,0,0-.664,0,.469.469,0,0,0-.141.334.466.466,0,0,0,.471.471Z" transform="translate(-13.227 -17.996)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

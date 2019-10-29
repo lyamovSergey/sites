@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.322" height="32.773" viewBox="0 0 40.322 32.773">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="40.322" height="32.773" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Удалить" transform="translate(-0.001)" clip-path="url(#clip-path)">
+    <rect id="Rectangle_49" data-name="Rectangle 49" width="40.322" height="32.773" fill="#d95050"/>
+    <g id="rubbish-bin" transform="translate(13.227 7.535)">
+      <g id="Group_129" data-name="Group 129">
+        <path id="Path_93" data-name="Path 93" d="M74.673,111.765a.915.915,0,0,0,.944.837h8.82a.915.915,0,0,0,.944-.837l.63-12.3H74.043Zm7.349-9.243a.37.37,0,0,1,.384-.355h.614a.37.37,0,0,1,.384.355v7.026a.37.37,0,0,1-.384.355h-.614a.37.37,0,0,1-.384-.355Zm-2.686,0a.37.37,0,0,1,.384-.355h.614a.37.37,0,0,1,.384.355v7.026a.37.37,0,0,1-.384.355H79.72a.37.37,0,0,1-.384-.355v-7.026Zm-2.686,0a.37.37,0,0,1,.384-.355h.614a.37.37,0,0,1,.384.355v7.026a.37.37,0,0,1-.384.355h-.614a.37.37,0,0,1-.384-.355Z" transform="translate(-73.031 -95.24)" fill="#fff"/>
+        <path id="Path_94" data-name="Path 94" d="M65.416.894H61.347V.183a.191.191,0,0,0-.2-.183H56.876a.191.191,0,0,0-.2.183V.894H52.609a.572.572,0,0,0-.593.548V3.165H66.009V1.443A.572.572,0,0,0,65.416.894Z" transform="translate(-52.016)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

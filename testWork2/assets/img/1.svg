@@ -1,0 +1,24 @@
+<svg width="116" height="116" viewBox="0 0 116 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f)">
+<rect x="41" y="41" width="34" height="34" rx="2" fill="url(#paint0_linear)" fill-opacity="0.3"/>
+<rect x="41" y="41" width="34" height="34" rx="2" fill="black" fill-opacity="0.05"/>
+</g>
+<rect x="34" y="30" width="48" height="48" rx="4" fill="url(#paint1_linear)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M50.8756 62.6511C51.0058 62.2604 51.3525 62 51.7411 62H65.6686C66.1128 62 66.4938 62.339 66.5729 62.8049L66.989 65.2522C67.0077 65.3643 67.0039 65.4808 66.9673 65.5875C66.8797 65.8431 66.6575 66 66.4179 66H50.5965C50.4773 66 50.3585 65.9683 50.2603 65.897C50.0297 65.7305 49.9467 65.4305 50.0339 65.1701L50.8756 62.6511Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M48.098 49.9303L52.592 43.8287L51.7271 41.7119C51.6508 41.5253 51.6969 41.3159 51.846 41.1697C51.9951 41.0236 52.2221 40.9657 52.4335 41.0201L56.6706 42.1049C57.0851 42.098 58.6402 42.1269 60.3653 42.8423C62.1879 43.5981 64.5516 45.2899 65.4599 49.056C66.7134 54.2551 65.4932 58.2241 64.7361 60H52.736L51.6649 59.0304C51.4707 58.8546 51.4383 58.5801 51.5869 58.3711C52.575 56.9812 54.9059 53.4815 55.807 51.3039C55.4767 51.4061 55.1027 51.472 54.7074 51.4535C54.1449 51.4269 53.6315 51.2402 53.1757 50.8981L51.5307 51.8912C51.0224 52.1977 50.3923 52.2922 49.8018 52.1503C49.2113 52.0084 48.7158 51.6436 48.4427 51.1488L48.0618 50.4593C47.968 50.29 47.9817 50.0879 48.098 49.9303ZM54.4074 46.5347H55.2007C55.5232 46.5347 55.7844 46.298 55.7844 46.0063C55.7844 45.7144 55.5232 45.4781 55.2007 45.4781H54.4074C54.0848 45.4781 53.8237 45.7144 53.8237 46.0063C53.8237 46.298 54.0848 46.5347 54.4074 46.5347Z" fill="white"/>
+<defs>
+<filter id="filter0_f" x="0.225773" y="0.225773" width="115.548" height="115.548" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="20.3871" result="effect1_foregroundBlur"/>
+</filter>
+<linearGradient id="paint0_linear" x1="92" y1="58" x2="58" y2="24" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF7676"/>
+<stop offset="1" stop-color="#F54EA2"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="106" y1="54" x2="58" y2="6" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF7676"/>
+<stop offset="1" stop-color="#F54EA2"/>
+</linearGradient>
+</defs>
+</svg>

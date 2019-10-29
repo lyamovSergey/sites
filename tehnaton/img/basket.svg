@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="22" viewBox="0 0 33 22">
+  <g id="поиск" transform="translate(-30)">
+    <rect id="Rectangle_49" data-name="Rectangle 49" width="33" height="22" transform="translate(30)" fill="#007dc4"/>
+    <g id="shopping-cart" transform="translate(40.773 5.092)">
+      <g id="shopping-cart-2" data-name="shopping-cart">
+        <path id="Path_174" data-name="Path 174" d="M3.556,9.643a1.205,1.205,0,1,0,1.185,1.205A1.2,1.2,0,0,0,3.556,9.643ZM0,0V1.205H1.185l2.134,4.58L2.49,7.232a2.173,2.173,0,0,0-.119.6A1.2,1.2,0,0,0,3.556,9.04h7.113V7.835H3.794a.129.129,0,0,1-.119-.121v-.06l.533-1.025H8.595a1.079,1.079,0,0,0,1.008-.6l2.134-3.917a.335.335,0,0,0,.119-.3.565.565,0,0,0-.593-.6H2.49L1.956,0ZM9.484,9.643a1.205,1.205,0,1,0,1.185,1.205A1.2,1.2,0,0,0,9.484,9.643Z" fill="#f6f8fb"/>
+      </g>
+    </g>
+  </g>
+</svg>

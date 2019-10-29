@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="807.032" height="691.98" viewBox="0 0 807.032 691.98">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.1" y1="0.455" x2="1" y2="0.487" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8598da"/>
+      <stop offset="1" stop-color="#7fe3dd"/>
+    </linearGradient>
+    <filter id="_1231" x="0" y="0" width="728.905" height="691.98" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+    <filter id="Rectangle_46" x="700.343" y="370.48" width="106.689" height="106.69" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_47" x="638.09" y="458.671" width="168.942" height="106.69" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_48" x="571.687" y="546.862" width="235.345" height="106.689" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <path id="_1231-2" data-name="1231" d="M19.05,153.131c118.382,174.647,210.994,172.654,96.405,251.677-91.631,63.218,31.656,227.173,242.781,227.173,171.555,0,310.67-141.245,310.67-315.427S529.856,1.129,358.235,1.129v.4C205.713-6.508-75.655,13.414,19.05,153.131Z" transform="translate(0 -0.001)" fill="#bfbfbf"/>
+    </clipPath>
+  </defs>
+  <g id="Group_157" data-name="Group 157" transform="translate(-120 -444.02)">
+    <g id="_12" data-name="12" transform="translate(140 692.747)">
+      <rect id="Rectangle_49" data-name="Rectangle 49" width="296.738" height="46.69" rx="22.5" transform="translate(0 88.191)" fill="rgba(154,154,154,0.6)"/>
+      <rect id="Rectangle_50" data-name="Rectangle 50" width="296.738" height="46.69" rx="22.5" transform="translate(0 176.383)" fill="#9a9a9a"/>
+      <rect id="Rectangle_51" data-name="Rectangle 51" width="296.738" height="46.69" rx="22.5" transform="translate(0 0)" fill="rgba(154,154,154,0.2)"/>
+    </g>
+    <path id="гфірш" d="M19.05,153.783C137.431,328.43,230.043,326.438,115.455,405.46c-91.631,63.218,31.656,227.173,242.781,227.173,171.555,0,310.67-141.244,310.67-315.426S529.856,1.781,358.235,1.781v.4C205.713-5.856-75.655,14.066,19.05,153.783Z" transform="translate(217.816 463.347)" opacity="0.25" fill="url(#linear-gradient)"/>
+    <g transform="matrix(1, 0, 0, 1, 120, 444.02)" filter="url(#_1231)">
+      <path id="_1231-3" data-name="1231" d="M19.05,153.131c118.382,174.647,210.994,172.654,96.405,251.677-91.631,63.218,31.656,227.173,242.781,227.173,171.555,0,310.67-141.245,310.67-315.427S529.856,1.129,358.235,1.129v.4C205.713-6.508-75.655,13.414,19.05,153.131Z" transform="translate(20 20)" fill="#bfbfbf"/>
+    </g>
+    <g id="Group_88" data-name="Group 88" transform="translate(711.687 834.499)">
+      <g transform="matrix(1, 0, 0, 1, -591.69, -390.48)" filter="url(#Rectangle_46)">
+        <rect id="Rectangle_46-2" data-name="Rectangle 46" width="46.69" height="46.69" rx="22.5" transform="translate(720.34 390.48)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -591.69, -390.48)" filter="url(#Rectangle_47)">
+        <rect id="Rectangle_47-2" data-name="Rectangle 47" width="108.942" height="46.69" rx="22.5" transform="translate(658.09 478.67)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -591.69, -390.48)" filter="url(#Rectangle_48)">
+        <rect id="Rectangle_48-2" data-name="Rectangle 48" width="175.345" height="46.69" rx="22.5" transform="translate(591.69 566.86)" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+    <g id="Mask_Group_20" data-name="Mask Group 20" transform="translate(140 464.02)" clip-path="url(#clip-path)">
+      <g id="Group_155" data-name="Group 155" transform="translate(0 -58.122)">
+        <rect id="Rectangle_61" data-name="Rectangle 61" width="747.032" height="747.032" fill="#9a9a9a"/>
+        <path id="Path_826" data-name="Path 826" d="M2403.9-4622l-357.872,359.932-385.456,387.676" transform="translate(-1656.866 4622)" fill="none" stroke="#fff" stroke-width="2"/>
+        <path id="Path_827" data-name="Path 827" d="M743.329,0,385.457,359.932,0,747.607" transform="translate(749.172 2.139) rotate(90)" fill="none" stroke="#fff" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

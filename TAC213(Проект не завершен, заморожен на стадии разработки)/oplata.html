@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="ua ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TAC</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.main.css">
+    <!-- <script src="assets/js/script.js"></script> -->
+    <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/jquery.maskedinput.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="left-col">
+                <a class="logo" href="index.html">
+                    <svg id="Group_8" data-name="Group 8" xmlns="http://www.w3.org/2000/svg" width="90" height="21.471" viewBox="0 0 90 21.471">
+                        <path id="Path_1" data-name="Path 1" d="M14.643,20.375,15.9,20.01a1.286,1.286,0,0,0,.522-.339,1.489,1.489,0,0,0,.339-.548L22.526,3.6,23.6.574,24.849.157l7.126,18.966a1.489,1.489,0,0,0,.339.548,1.136,1.136,0,0,0,.522.339l1.253.365v.7h-7.1v-.7l2.871-.5-2.427-6.47H20.751l-2.245,6.418,1.8.548v.7H14.643Zm12.712-8.087-2.4-6.313-.731-2.009H24.2l-2.976,8.322Zm-23.1,8.087,2.14-.391a.855.855,0,0,0,.5-.313A.911.911,0,0,0,7.1,19.1V1.591H2.454a.514.514,0,0,0-.418.157.713.713,0,0,0-.209.365L.783,5.4H0V.444H16.836V5.4h-.783L15.009,2.087a.841.841,0,0,0-.209-.365.458.458,0,0,0-.392-.157H9.71V19.071a.859.859,0,0,0,.209.574.812.812,0,0,0,.5.287l2.14.391v.7h-8.3Zm31.14-3.5h1.879a16.944,16.944,0,0,0,.209,1.774,1.26,1.26,0,0,0,.626.626c.418.183.809.339,1.227.5q.626.2,1.175.313a4.7,4.7,0,0,0,.966.1,4.88,4.88,0,0,0,1.671-.261,3.754,3.754,0,0,0,1.279-.783,3.073,3.073,0,0,0,.809-1.278,4.956,4.956,0,0,0,.287-1.722,3.318,3.318,0,0,0-.731-2.244A5.561,5.561,0,0,0,42.833,12.5a9.219,9.219,0,0,0-1.1-.391l-1.1-.313-1.1-.313a9.219,9.219,0,0,1-1.1-.391,5.63,5.63,0,0,1-2.532-1.931A5.083,5.083,0,0,1,35.029,6.1a5.93,5.93,0,0,1,.47-2.374A6.2,6.2,0,0,1,36.83,1.774,6.51,6.51,0,0,1,38.84.47,6.687,6.687,0,0,1,41.346,0a13.36,13.36,0,0,1,1.462.078c.5.052.966.13,1.436.209S46.1.809,46.514.939c-.157.417-.653,2.322-.653,2.322s-2.767-1.487-3.132-1.617a7.3,7.3,0,0,0-1.018-.261A4.942,4.942,0,0,0,40.9,1.3a4.659,4.659,0,0,0-1.54.235,3.35,3.35,0,0,0-1.148.678,3.01,3.01,0,0,0-.731,1.044,3.771,3.771,0,0,0-.261,1.33,6.306,6.306,0,0,0,.1,1.226,3.426,3.426,0,0,0,.418,1.122,4.111,4.111,0,0,0,.835.965,4.459,4.459,0,0,0,1.357.73c.339.13.7.235,1.044.339s.7.209,1.044.287c.339.1.7.209,1.07.339s.731.261,1.148.443a8.862,8.862,0,0,1,1.305.678,4.63,4.63,0,0,1,1.149.991,4.823,4.823,0,0,1,.809,1.383,5.293,5.293,0,0,1,.313,1.9,6.756,6.756,0,0,1-.418,2.348A5.541,5.541,0,0,1,46.1,19.41,6.991,6.991,0,0,1,43.8,20.9a8.608,8.608,0,0,1-3.341.574,8.356,8.356,0,0,1-1.357-.1c-.47-.078-.992-.13-1.488-.235-.5-.13-1.488-.47-1.488-.47a3.263,3.263,0,0,1-.835-.5Z" fill="#2e4b7b" />
+                        <path id="Path_2" data-name="Path 2" d="M63.794.339h1.853V2.191H63.794Zm.183,6.7h1.488V21.132H63.977ZM55.52,17.479V.339h1.488V17.453c0,1.618.5,2.374,2.167,2.374h1.018v1.3H58.913C56.616,21.132,55.52,19.7,55.52,17.479ZM73.06,21.132H71.572V8.166H69.641V7.044h1.932V4.018c0-2.139,1.175-3.678,3.393-3.678h1.279v1.3H75.227c-1.488,0-2.167.835-2.167,2.348V7.044h3.185V8.166H73.06Zm11.746-1.174a4.9,4.9,0,0,0,3.889-1.7l1.122.887a6.385,6.385,0,0,1-5.09,2.165c-3.889,0-6-2.5-6-7.2,0-4.565,2.114-7.227,5.638-7.227S90,9.418,90,13.748v.678H80.212C80.212,18,81.778,19.958,84.806,19.958Zm3.211-9.392a4,4,0,0,0-7.309,0,7.662,7.662,0,0,0-.5,2.661h8.3A6.89,6.89,0,0,0,88.017,10.566Z" fill="#00214e" />
+                        <path id="Path_3" data-name="Path 3" d="M84.676,4.331H80.447A3.842,3.842,0,0,1,84.284.5h4.229A3.842,3.842,0,0,1,84.676,4.331Z" fill="#9ebc3d" />
+                    </svg>
+                </a>
+                <select name="lang" id="lang">
+                    <option value="УКР">УКР</option>
+                    <option value="РУС">РУС</option>
+                </select>
+            </div>
+            <div class="menu">
+                <a href="#">ПРО ТАС</a>
+                <a href="#">ЛАЙФМАРКЕТ</a>
+                <a href="#">виплати</a>
+                <a href="#">БЛОГ</a>
+                <a href="#">КОНТАКТИ</a>
+            </div>
+            <div class="right-col">
+                <div class="search-field-wrapper">
+                    <a href="#">ПОВІДОМИТИ ПРО СТРАХОВУ ПОДІЮ</a>
+                    <a href="#" class="link-button">ОПЛАТА</a>
+                    <div class="search-field">
+                        <input type="text" value="">
+                        <div class="search-button">
+                            <svg id="search" xmlns="http://www.w3.org/2000/svg" width="19" height="19.257" viewBox="0 0 19 19.257">
+                                <path id="Path_6" data-name="Path 6" d="M19.031,20.09,14.414,15.41A8.005,8.005,0,0,1,9.1,17.425,8.166,8.166,0,0,1,1,9.213,8.166,8.166,0,0,1,9.1,1a8.169,8.169,0,0,1,8.1,8.213,8.55,8.55,0,0,1-1.06,4.06,7.5,7.5,0,0,1-.928,1.325l4.617,4.681a.584.584,0,0,1,.169.406.569.569,0,0,1-.969.406ZM9.1,2.149a7.06,7.06,0,0,0,0,14.119,7.06,7.06,0,0,0,0-14.119Z" transform="translate(-1 -1)" fill="#9a9a9a" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="search-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19.257" viewBox="0 0 19 19.257">
+                        <g id="search" transform="translate(-1 -1)" opacity="0.5">
+                            <path id="Path_6" data-name="Path 6" d="M19.031,20.09,14.414,15.41A8.005,8.005,0,0,1,9.1,17.425,8.166,8.166,0,0,1,1,9.213,8.166,8.166,0,0,1,9.1,1a8.169,8.169,0,0,1,8.1,8.213,8.55,8.55,0,0,1-1.06,4.06,7.5,7.5,0,0,1-.928,1.325l4.617,4.681a.584.584,0,0,1,.169.406.569.569,0,0,1-.969.406ZM9.1,2.149a7.06,7.06,0,0,0,0,14.119,7.06,7.06,0,0,0,0-14.119Z" fill="#00214e" />
+                        </g>
+                    </svg>
+                </a>
+                <a href="#" class="search-button hide">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19.257" viewBox="0 0 41.094 41.085">
+                        <g id="Group_12" data-name="Group 12" transform="translate(-1782.138 -970.95)">
+                            <path id="play-icon-hold" d="M0,24.459H0L35.991,0" transform="translate(1811.246 971.505) rotate(79)" fill="none" stroke="#00214E" stroke-width="1.5" />
+                            <path id="play-icon-hold-2" data-name="play-icon-hold" d="M0,24.418H0L36,0" transform="translate(1822.671 1000.053) rotate(169)" fill="none" stroke="#00214E" stroke-width="1.5" />
+                        </g>
+                    </svg>
+                </a>
+                <a href="#" class="sign-button" data-toggle="modal" data-target="#myModal">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18.243" viewBox="0 0 19 18.243">
+                        <g id="profile" transform="translate(-1 -1)" opacity="0.5">
+                            <path id="Path_4" data-name="Path 4" d="M10.468,11.238A5.119,5.119,0,1,0,5.383,6.111,5.107,5.107,0,0,0,10.468,11.238Zm0-8.9A3.775,3.775,0,1,1,6.724,6.111,3.77,3.77,0,0,1,10.468,2.337Z" fill="#00214e" />
+                            <path id="Path_5" data-name="Path 5" d="M1.671,19.243H19.329A.669.669,0,0,0,20,18.567a6.414,6.414,0,0,0-6.38-6.432H7.38A6.414,6.414,0,0,0,1,18.567.669.669,0,0,0,1.671,19.243ZM7.38,13.487h6.24a5.049,5.049,0,0,1,4.992,4.4H2.388A5.063,5.063,0,0,1,7.38,13.487Z" fill="#00214e" />
+                        </g>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- ------------------ -->
+    <div id="myModal" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="popup">
+                <button id="closePopup" class="close" type="button" data-dismiss="modal">×</button>
+                <h3>Вхід в кабінет</h3>
+                <div class="content-block">
+                    <a href="#" class="link-button" id="client">Клієнт</a>
+                    <a href="#" id="consult" class="link-button gradientBG">Консультант</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------ -->
+    <main>
+        <section id="pay-block">
+            <div class="container-fluid">
+                <div class="nav tabs-panel" id="products-nav-tab" role="tablist">
+                    <a class="tabsIcon active" id="nav-visa-tab" data-toggle="tab" href="#nav-visa" role="tab" aria-controls="nav-visa" aria-selected="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="54.338" height="54.339" viewBox="0 0 54.338 54.339">
+                            <g id="surface1" transform="translate(0.25 0.25)">
+                                <path id="Path_2327" data-name="Path 2327" d="M8.973,9.506V4.487A4.492,4.492,0,0,1,13.46,0H49.352a4.492,4.492,0,0,1,4.487,4.487V24.227a4.478,4.478,0,0,1-4.024,4.44l-3.373,8.756A4.488,4.488,0,0,1,40.642,40L19.579,31.883A12.971,12.971,0,0,1,18.462,43.4l-.516.824v8.716a.9.9,0,0,1-.9.9H.9a.9.9,0,0,1-.9-.9V23.322a11.743,11.743,0,0,1,3.438-8.271Zm0,5.366L6.25,21.942A2.692,2.692,0,0,0,7.8,25.421l1.557.6a4.488,4.488,0,0,1-.379-1.795Zm43.071,9.355V4.487a2.692,2.692,0,0,0-2.692-2.692H13.46a2.692,2.692,0,0,0-2.692,2.692v5.7h.008l-.008.02V24.227a2.73,2.73,0,0,0,.061.465l8.219-8.22a4.787,4.787,0,0,1,6.909,6.62l-3.5,3.827h26.9A2.692,2.692,0,0,0,52.044,24.227Zm-11.5,4.487,6.381,2.457.944-2.457Zm.739,9.608a2.692,2.692,0,0,0,3.48-1.544l1.514-3.937L35.57,28.714v-.005H20.809L19.642,29.98ZM1.795,52.044H16.152V44.865H1.795Zm0-8.973H16.551l.389-.622a11.189,11.189,0,0,0,.227-11.492.9.9,0,0,1,.118-1.052l7.353-8.022a2.993,2.993,0,0,0-4.321-4.139l-14.3,14.3L4.749,30.771l3.32-3.32-.921-.359a4.487,4.487,0,0,1-2.573-5.8l3.037-7.886L4.707,16.322a9.937,9.937,0,0,0-2.912,7Zm0,0" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                                <path id="Path_2328" data-name="Path 2328" d="M64.833,71.473A2.333,2.333,0,0,1,62.5,69.14V64.833A2.333,2.333,0,0,1,64.833,62.5H69.14a2.333,2.333,0,0,1,2.333,2.333V69.14a2.333,2.333,0,0,1-2.333,2.333Zm4.845-2.333V67.884H67.884V66.089h1.795V64.833a.539.539,0,0,0-.538-.538H64.833a.539.539,0,0,0-.538.538v1.256h1.795v1.795H64.295V69.14a.539.539,0,0,0,.538.538H69.14A.539.539,0,0,0,69.678,69.14Zm0,0" transform="translate(-21.224 -58.911)" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                                <path id="Path_2329" data-name="Path 2329" d="M81.714,265.625H78.125v1.795h3.589Zm0,0" transform="translate(-32.362 -250.371)" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                                <path id="Path_2330" data-name="Path 2330" d="M81.714,359.375H78.125v1.795h3.589Zm0,0" transform="translate(-32.362 -338.737)" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                                <path id="Path_2331" data-name="Path 2331" d="M362.964,359.375h-3.589v1.795h3.589Zm0,0" transform="translate(-329.764 -338.737)" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                                <path id="Path_2332" data-name="Path 2332" d="M175.464,265.625h-3.589v1.795h3.589Zm0,0" transform="translate(-131.496 -250.371)" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                                <path id="Path_2333" data-name="Path 2333" d="M269.214,265.625h-3.589v1.795h3.589Zm0,0" transform="translate(-230.63 -250.371)" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                                <path id="Path_2334" data-name="Path 2334" d="M362.964,265.625h-3.589v1.795h3.589Zm0,0" transform="translate(-329.764 -250.371)" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                                <path id="Path_2335" data-name="Path 2335" d="M658.045,78.125H656.25v2.692h1.795Zm0,0" transform="translate(-641.893 -73.638)" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                                <path id="Path_2336" data-name="Path 2336" d="M595.545,78.125H593.75v2.692h1.795Zm0,0" transform="translate(-575.804 -73.638)" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                                <path id="Path_2337" data-name="Path 2337" d="M533.045,78.125H531.25v2.692h1.795Zm0,0" transform="translate(-509.715 -73.638)" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                                <path id="Path_2338" data-name="Path 2338" d="M470.545,78.125H468.75v2.692h1.795Zm0,0" transform="translate(-443.625 -73.638)" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                                <path id="Path_2339" data-name="Path 2339" d="M689.295,812.5H687.5v1.795h1.795Zm0,0" transform="translate(-674.938 -765.84)" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                            </g>
+                        </svg>
+                    </a>
+                    <a class="tabsIcon " id="nav-bank-tab" data-toggle="tab" href="#nav-bank" role="tab" aria-controls="nav-bank" aria-selected="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="54.192" height="54.197" viewBox="0 0 54.192 54.197">
+                            <path id="Union_11" data-name="Union 11" d="M-6045.469,18425.7a.894.894,0,0,1-.893-.9v-1.9a14.486,14.486,0,0,1-1.79.111h-8.948a14.5,14.5,0,0,1-1.794-.111v1.9a.894.894,0,0,1-.893.9h-7.158a.9.9,0,0,1-.9-.9v-6.658a14.379,14.379,0,0,1-2.849-4.971h-3.413a.9.9,0,0,1-.9-.9v-7.158a.9.9,0,0,1,.9-.9h3.413a14.44,14.44,0,0,1,2.849-4.977v-6.658a.9.9,0,0,1,.9-.893,6.266,6.266,0,0,1,5.54,3.357,13.835,13.835,0,0,1,4.305-.67h8.948a14.329,14.329,0,0,1,14.316,14.316v1.34a2.959,2.959,0,0,1-.222,1.133,14.293,14.293,0,0,1-3.357,6.979v6.654a.9.9,0,0,1-.893.9Zm.569-4.541a.9.9,0,0,1,.328.7v2.057h5.369v-6.1a.907.907,0,0,1,.236-.611,12.5,12.5,0,0,0,2.525-4.078,3.327,3.327,0,0,1-.522.057,3.136,3.136,0,0,1-3.135-3.137v-1.34h1.794v1.34a1.338,1.338,0,0,0,1,1.3,1.343,1.343,0,0,0,1.508-.666,12.28,12.28,0,0,0,.171-1.979,12.542,12.542,0,0,0-12.527-12.527h-8.948a12.332,12.332,0,0,0-4.471.832.9.9,0,0,1-.694-.027.885.885,0,0,1-.467-.514,4.5,4.5,0,0,0-3.32-2.891v6.021a.9.9,0,0,1-.236.605,12.573,12.573,0,0,0-2.876,5.156.9.9,0,0,1-.865.656h-3.182v5.369h3.182a.9.9,0,0,1,.865.656,12.536,12.536,0,0,0,2.876,5.156.9.9,0,0,1,.236.611v6.107h5.369v-2.057a.9.9,0,0,1,.328-.7.894.894,0,0,1,.749-.184,12.659,12.659,0,0,0,2.506.25h8.948a12.643,12.643,0,0,0,2.5-.25.833.833,0,0,1,.183-.02A.9.9,0,0,1-6044.9,18421.154Zm12.855-12.461v-1.791h8.948v-3.578h-9.84v-1.789h.892v-17h-3.579v12.527h-1.79v-12.527h-3.579v8.947h-1.79v-8.947h-3.579v8.051h-1.79v-8.051h-3.579v8.051h-1.79v-8.051h-3.58v8.051h-1.794v-8.051h-3.579v6.262h-1.79v-6.262h-2.682a.9.9,0,0,1-.9-.9v-3.58a.9.9,0,0,1,.624-.852l22.372-7.162a.929.929,0,0,1,.546,0l22.372,7.162a.9.9,0,0,1,.62.852v3.58a.894.894,0,0,1-.893.9h-2.687v17h2.687a.89.89,0,0,1,.893.893v5.367a.9.9,0,0,1-.893.9Zm1.79-7.158h3.58v-17h-3.58Zm-35.8-20.828v2.035h42.955v-2.035l-21.475-6.871Zm0,25.3a2.682,2.682,0,0,1,2.687-2.682,2.681,2.681,0,0,1,2.682,2.682,2.686,2.686,0,0,1-2.682,2.688A2.687,2.687,0,0,1-6066.052,18406.006Zm1.79,0a.9.9,0,0,0,.9.9.894.894,0,0,0,.893-.9.893.893,0,0,0-.893-.893A.9.9,0,0,0-6064.262,18406.006Zm7.163-6.266v-1.785h8.948v1.785Zm9.841-21.475a2.687,2.687,0,0,1,2.687-2.687,2.686,2.686,0,0,1,2.682,2.688,2.681,2.681,0,0,1-2.682,2.682A2.682,2.682,0,0,1-6047.259,18378.266Zm1.79,0a.9.9,0,0,0,.9.9.894.894,0,0,0,.893-.9.894.894,0,0,0-.893-.9A.9.9,0,0,0-6045.469,18378.266Z" transform="translate(6075.25 -18371.748)" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                        </svg>
+                    </a>
+                    <a class="tabsIcon " id="nav-terminal-tab" data-toggle="tab" href="#nav-terminal" role="tab" aria-controls="nav-terminal" aria-selected="false">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="54.338" height="54.339" viewBox="0 0 54.338 54.339">
+                            <g id="surface1" transform="translate(0.25 0.25)">
+                                <path id="Path_2321" data-name="Path 2321" d="M105.481,92.489a.877.877,0,0,0,.09-.378V69.678a3.589,3.589,0,0,0,0-7.178H66.089a3.589,3.589,0,0,0,0,7.178V92.111a.9.9,0,0,0,.9.9h7.178v13.46a6.289,6.289,0,0,0,6.281,6.281H91.637a8.115,8.115,0,0,0,6.924-3.92l7.3-12.164A3.526,3.526,0,0,0,105.481,92.489Zm-7.986.519h2.212L97.5,96.329ZM67.884,85.83h35.892v1.795H67.884Zm39.482-19.741a1.794,1.794,0,0,1-1.795,1.795V64.295A1.794,1.794,0,0,1,107.365,66.089Zm-3.589-1.795V84.035H67.884V64.295ZM64.295,66.089a1.794,1.794,0,0,1,1.795-1.795v3.589A1.794,1.794,0,0,1,64.295,66.089Zm3.589,25.125V89.419h35.892v1.795Zm36.437,4.527-7.3,12.163a6.313,6.313,0,0,1-5.384,3.051H80.446a4.492,4.492,0,0,1-4.487-4.487V93.008h3.589V96.6h1.795V93.008h3.589V96.6h1.795V93.008h3.589V96.6h1.795V93.008H95.7v5.384H93.008a8.085,8.085,0,0,0-8.076,8.076h1.795a6.289,6.289,0,0,1,6.281-6.281H96.6a.9.9,0,0,0,.747-.4l3.967-5.951a1.781,1.781,0,0,1,3.01,1.9Zm0,0" transform="translate(-58.911 -58.911)" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                                <path id="Path_2322" data-name="Path 2322" d="M52.941,0H.9A.9.9,0,0,0,0,.9V13.46a.9.9,0,0,0,.9.9H5.384V12.562H1.795V1.795H52.044V12.562H48.455v1.795h4.487a.9.9,0,0,0,.9-.9V.9A.9.9,0,0,0,52.941,0Zm0,0" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                                <path id="Path_2323" data-name="Path 2323" d="M188.4,138.46a1.794,1.794,0,0,1,1.795,1.795.9.9,0,0,0,.9.9h25.125a.9.9,0,0,0,.9-.9,1.794,1.794,0,0,1,1.795-1.795.9.9,0,0,0,.9-.9v-8.973a.9.9,0,0,0-.9-.9,1.794,1.794,0,0,1-1.795-1.795.9.9,0,0,0-.9-.9H191.089a.9.9,0,0,0-.9.9,1.794,1.794,0,0,1-1.795,1.795.9.9,0,0,0-.9.9v8.973A.9.9,0,0,0,188.4,138.46Zm9.87-5.384c0-3.463,2.415-6.281,5.384-6.281s5.384,2.818,5.384,6.281-2.415,6.281-5.384,6.281S198.268,136.539,198.268,133.076Zm17.161-6.281a3.606,3.606,0,0,0,2.579,2.579v7.4a3.606,3.606,0,0,0-2.579,2.579h-7.276a8.709,8.709,0,0,0,0-12.562Zm-26.135,2.579a3.606,3.606,0,0,0,2.579-2.579h7.276a8.709,8.709,0,0,0,0,12.562h-7.276a3.606,3.606,0,0,0-2.579-2.579Zm0,0" transform="translate(-176.732 -117.822)" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                                <path id="Path_2324" data-name="Path 2324" d="M265.625,250h1.795v1.795h-1.795Zm0,0" transform="translate(-250.371 -235.643)" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                                <path id="Path_2325" data-name="Path 2325" d="M640.625,250h1.795v1.795h-1.795Zm0,0" transform="translate(-603.835 -235.643)" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                                <path id="Path_2326" data-name="Path 2326" d="M33.045,578.125H31.25a6.289,6.289,0,0,0,6.281,6.281v-1.795A4.492,4.492,0,0,1,33.045,578.125Zm0,0" transform="translate(-29.455 -544.925)" fill="#00214e" stroke="#fff" stroke-width="0.5" />
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="tab-content" id="products-nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-visa" role="tabpanel" aria-labelledby="nav-visa-tab">
+                        <div class="content-wrapper">
+                            <div class="heading-block">
+                                <h2>visa/mastercard</h2>
+                            </div>
+                            <div class="noWrap-block">
+                                <div class="img-block">
+                                    <img src="assets/img/visaImg.png" alt="">
+                                </div>
+                                <div class="form-block">
+                                    <form action="#" method="POST">
+                                        <p class="heading-text">Будь ласка, для здійснення оплати, заповніть нижченаведену форму:</p>
+                                        <div class="inputs inpGroupFirst">
+                                            <input type="text" name="lastName" class="w32" placeholder="Прізвище">
+                                            <input type="text" name="name" class="w32" placeholder="Ім'я">
+                                            <input type="text" name="secondName" class="w32" placeholder="Батькові">
+                                        </div>
+                                        <div class="inputs">
+                                            <select name="currency" id="currency" class="w15">
+                                                <option value="UAH">UAH</option>
+                                                <option value="USD">USD</option>
+                                            </select>
+                                            <input type="text" name="currencySum" placeholder="Cумма у валюті" class="w40">
+                                            <input type="text" name="sum" placeholder="Cумма до сплати*" required="" class="w40">
+                                        </div>
+                                        <div class="inputs">
+                                            <select name="prevPay" id="prevPay" class="w100">
+                                                <option value="1" disabled selected>Сплата повторного платежу</option>
+                                                <option value="2">dfgfg</option>
+                                            </select>
+                                        </div>
+                                        <div class="inputs">
+                                            <select name="seraial" id="seraial" class="w35">
+                                                <option value="1" disabled selected>Не маю серії</option>
+                                                <option value="2">dfgfg</option>
+                                            </select>
+                                            <input type="text" name="serialName" placeholder="00000-0000 або 01012000/00" class="w60">
+                                        </div>
+                                        <div class="inputs">
+                                            <input type="submit" value="Сплатити">
+                                            <p>Всього до сплати: <span class="total">20,000 ргн</span></p>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-bank" role="tabpanel" aria-labelledby="nav-bank-tab">
+                        <div class="content-wrapper">
+                            <div class="heading-block">
+                                <h2>У відділені банку</h2>
+                            </div>
+                            <div class="noWrap-block">
+                                <div class="img-block">
+                                    <img src="assets/img/bankImg.png" alt="">
+                                </div>
+                                <div class="form-block">
+                                    <form action="#" method="POST">
+                                        <p class="heading-text">Будь ласка, для здійснення оплати, заповніть нижченаведену форму:</p>
+                                        <div class="inputs inpGroupFirst">
+                                            <input type="text" name="lastName" class="w32" placeholder="Прізвище">
+                                            <input type="text" name="name" class="w32" placeholder="Ім'я">
+                                            <input type="text" name="secondName" class="w32" placeholder="Батькові">
+                                        </div>
+                                        <div class="inputs">
+                                            <select name="currency" id="currency" class="w15">
+                                                <option value="UAH">UAH</option>
+                                                <option value="USD">USD</option>
+                                            </select>
+                                            <input type="text" name="currencySum" placeholder="Cумма у валюті" class="w40">
+                                            <input type="text" name="sum" placeholder="Cумма до сплати*" required="" class="w40">
+                                        </div>
+                                        <div class="inputs">
+                                            <select name="prevPay" id="prevPay" class="w100">
+                                                <option value="1" disabled selected>Сплата повторного платежу</option>
+                                                <option value="2">dfgfg</option>
+                                            </select>
+                                        </div>
+                                        <div class="inputs">
+                                            <select name="seraial" id="seraial" class="w35">
+                                                <option value="1" disabled selected>Не маю серії</option>
+                                                <option value="2">dfgfg</option>
+                                            </select>
+                                            <input type="text" name="serialName" placeholder="00000-0000 або 01012000/00" class="w60">
+                                        </div>
+                                        <div class="inputs">
+                                            <input type="submit" value="Сплатити">
+                                            <p>Всього до сплати: <span class="total">20,000 ргн</span></p>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-terminal" role="tabpanel" aria-labelledby="nav-terminal-tab">
+                        <div class="content-wrapper">
+                            <div class="heading-block">
+                                <h2>самообслуговування</h2>
+                            </div>
+                            <div class="noWrap-block">
+                                <div class="img-block">
+                                    <img src="assets/img/terminalImg.png" alt="">
+                                </div>
+                                <div class="bank-block">
+                                    <a href="#">
+                                        <img src="assets/img/приват.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="assets/img/TAS_logo_slogan.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer" class="footer mg-t-40">
+        <div class="addition-container mg-bt-40">
+            <div class="row justify-content-between">
+                <div class="col-1">
+                    <svg id="Group_8" data-name="Group 8" xmlns="http://www.w3.org/2000/svg" width="90" height="21.471" viewBox="0 0 90 21.471">
+                        <path id="Path_1" data-name="Path 1" d="M14.643,20.375,15.9,20.01a1.286,1.286,0,0,0,.522-.339,1.489,1.489,0,0,0,.339-.548L22.526,3.6,23.6.574,24.849.157l7.126,18.966a1.489,1.489,0,0,0,.339.548,1.136,1.136,0,0,0,.522.339l1.253.365v.7h-7.1v-.7l2.871-.5-2.427-6.47H20.751l-2.245,6.418,1.8.548v.7H14.643Zm12.712-8.087-2.4-6.313-.731-2.009H24.2l-2.976,8.322Zm-23.1,8.087,2.14-.391a.855.855,0,0,0,.5-.313A.911.911,0,0,0,7.1,19.1V1.591H2.454a.514.514,0,0,0-.418.157.713.713,0,0,0-.209.365L.783,5.4H0V.444H16.836V5.4h-.783L15.009,2.087a.841.841,0,0,0-.209-.365.458.458,0,0,0-.392-.157H9.71V19.071a.859.859,0,0,0,.209.574.812.812,0,0,0,.5.287l2.14.391v.7h-8.3Zm31.14-3.5h1.879a16.944,16.944,0,0,0,.209,1.774,1.26,1.26,0,0,0,.626.626c.418.183.809.339,1.227.5q.626.2,1.175.313a4.7,4.7,0,0,0,.966.1,4.88,4.88,0,0,0,1.671-.261,3.754,3.754,0,0,0,1.279-.783,3.073,3.073,0,0,0,.809-1.278,4.956,4.956,0,0,0,.287-1.722,3.318,3.318,0,0,0-.731-2.244A5.561,5.561,0,0,0,42.833,12.5a9.219,9.219,0,0,0-1.1-.391l-1.1-.313-1.1-.313a9.219,9.219,0,0,1-1.1-.391,5.63,5.63,0,0,1-2.532-1.931A5.083,5.083,0,0,1,35.029,6.1a5.93,5.93,0,0,1,.47-2.374A6.2,6.2,0,0,1,36.83,1.774,6.51,6.51,0,0,1,38.84.47,6.687,6.687,0,0,1,41.346,0a13.36,13.36,0,0,1,1.462.078c.5.052.966.13,1.436.209S46.1.809,46.514.939c-.157.417-.653,2.322-.653,2.322s-2.767-1.487-3.132-1.617a7.3,7.3,0,0,0-1.018-.261A4.942,4.942,0,0,0,40.9,1.3a4.659,4.659,0,0,0-1.54.235,3.35,3.35,0,0,0-1.148.678,3.01,3.01,0,0,0-.731,1.044,3.771,3.771,0,0,0-.261,1.33,6.306,6.306,0,0,0,.1,1.226,3.426,3.426,0,0,0,.418,1.122,4.111,4.111,0,0,0,.835.965,4.459,4.459,0,0,0,1.357.73c.339.13.7.235,1.044.339s.7.209,1.044.287c.339.1.7.209,1.07.339s.731.261,1.148.443a8.862,8.862,0,0,1,1.305.678,4.63,4.63,0,0,1,1.149.991,4.823,4.823,0,0,1,.809,1.383,5.293,5.293,0,0,1,.313,1.9,6.756,6.756,0,0,1-.418,2.348A5.541,5.541,0,0,1,46.1,19.41,6.991,6.991,0,0,1,43.8,20.9a8.608,8.608,0,0,1-3.341.574,8.356,8.356,0,0,1-1.357-.1c-.47-.078-.992-.13-1.488-.235-.5-.13-1.488-.47-1.488-.47a3.263,3.263,0,0,1-.835-.5Z" fill="#2e4b7b" />
+                        <path id="Path_2" data-name="Path 2" d="M63.794.339h1.853V2.191H63.794Zm.183,6.7h1.488V21.132H63.977ZM55.52,17.479V.339h1.488V17.453c0,1.618.5,2.374,2.167,2.374h1.018v1.3H58.913C56.616,21.132,55.52,19.7,55.52,17.479ZM73.06,21.132H71.572V8.166H69.641V7.044h1.932V4.018c0-2.139,1.175-3.678,3.393-3.678h1.279v1.3H75.227c-1.488,0-2.167.835-2.167,2.348V7.044h3.185V8.166H73.06Zm11.746-1.174a4.9,4.9,0,0,0,3.889-1.7l1.122.887a6.385,6.385,0,0,1-5.09,2.165c-3.889,0-6-2.5-6-7.2,0-4.565,2.114-7.227,5.638-7.227S90,9.418,90,13.748v.678H80.212C80.212,18,81.778,19.958,84.806,19.958Zm3.211-9.392a4,4,0,0,0-7.309,0,7.662,7.662,0,0,0-.5,2.661h8.3A6.89,6.89,0,0,0,88.017,10.566Z" fill="#00214e" />
+                        <path id="Path_3" data-name="Path 3" d="M84.676,4.331H80.447A3.842,3.842,0,0,1,84.284.5h4.229A3.842,3.842,0,0,1,84.676,4.331Z" fill="#9ebc3d" />
+                    </svg>
+                </div>
+                <div class="col-1">
+                    <ul class="menu-list">
+                        <li class="menu-item active"><a href="#">Головна</a></li>
+                        <li class="menu-item"><a href="#">Виплати</a></li>
+                        <li class="menu-item"><a href="#">Оплата</a></li>
+                        <li class="menu-item"><a href="#">Блог</a></li>
+                        <li class="menu-item"><a href="#">Контакти</a></li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <ul class="menu-list">
+                        <li class="menu-item active text-center"><a href="#">Про Тас</a></li>
+                        <li class="menu-item text-center"><a href="#">Про нас</a></li>
+                        <li class="menu-item text-center"><a href="#">Партнери</a></li>
+                        <li class="menu-item text-center"><a href="#">Важлива інформація</a></li>
+                        <li class="menu-item text-center"><a href="#">Программа лояльности</a></li>
+                    </ul>
+                </div>
+                <div class="col-1">
+                    <ul class="menu-list">
+                        <li class="menu-item active"><a href="#">Лайфмаркет</a></li>
+                        <li class="menu-item"><a href="#">Для Тебе</a></li>
+                        <li class="menu-item"><a href="#">Для Бізнесу</a></li>
+                        <li class="menu-item"><a href="#">Для Дитини</a></li>
+                        <li class="menu-item"><a href="#">Сервіси</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <p class="footer_colored_text footer_text">Контакти</p>
+                    <p class="footer_text">Офіс для обслуговування Клієнтів:
+                        Україна, 01001, м. Київ, вул. Шота Руставелі,16, поверх 6</p>
+                </div>
+                <div class="col-2">
+                    <p class="footer_text">Інформаційна лінія:</p>
+                    <div class="menu-item"><a href="tel:+380800500117">0 800 500 117</a></div>
+                    <p class="footer_text mg-t-40">Email:</p>
+                    <div class="menu-item"><a href="mailto:sktas@taslife.com.ua">sktas@taslife.com.ua</a></div>
+                </div>
+                <div class="col-1">
+                    <a href="#" class="footer_text footer_social">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24.783" height="24.207" viewBox="0 0 24.783 24.207">
+                            <path id="Path_440" data-name="Path 440" d="M69.783,5.005A4.232,4.232,0,0,0,65.653.971H49.131A4.232,4.232,0,0,0,45,5.005V21.143a4.232,4.232,0,0,0,4.131,4.035h8.261V16.033H54.362V12h3.029V10.427c0-2.711,2.084-5.152,4.647-5.152h3.339V9.309H62.038a.992.992,0,0,0-.792,1.082V12h4.13v4.035h-4.13v9.145h4.406a4.232,4.232,0,0,0,4.13-4.035Z" transform="translate(-45 -0.971)" fill="#6b6b6b" />
+                        </svg>
+                    </a>
+                    <a href="#" class="footer_text footer_social">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24.783" height="24.207" viewBox="0 0 24.783 24.207">
+                            <path id="Path_441" data-name="Path 441" d="M106.2,9.556l-5.52,5.011a1.105,1.105,0,0,0-.354.669l-.188,1.361a.174.174,0,0,1-.338.024l-.723-2.481a.651.651,0,0,1,.294-.74l6.688-4.023A.115.115,0,0,1,106.2,9.556ZM109.393.971a5,5,0,0,1,5,5V20.178a5,5,0,0,1-5,5H94.61a5,5,0,0,1-5-5V5.971a5,5,0,0,1,5-5Zm-.515,5.816L94.834,12.078a.391.391,0,0,0,0,.737l1.115.407A5,5,0,0,1,99,16.4l.58,1.821a.407.407,0,0,0,.64.188l1.907-1.519a.579.579,0,0,1,.693-.019l3.441,2.44a.406.406,0,0,0,.632-.239l2.52-11.841A.4.4,0,0,0,108.878,6.786Z" transform="translate(-89.61 -0.971)" fill="#6b6b6b" />
+                        </svg>
+                    </a>
+                    <a href="#" class="footer_text footer_social">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24.78" height="24.21" viewBox="0 0 24.78 24.21">
+                            <path id="Path_442" data-name="Path 442" d="M10.332,10.192,15.6,13.116l-5.266,2.924Zm14.448-6.6V22.616a2.626,2.626,0,0,1-2.655,2.594H2.655A2.626,2.626,0,0,1,0,22.616V3.594A2.626,2.626,0,0,1,2.655,1h19.47A2.626,2.626,0,0,1,24.78,3.594Zm-2.323,9.527a25.382,25.382,0,0,0-.42-4.766A2.5,2.5,0,0,0,20.255,6.6c-1.565-.416-7.865-.416-7.865-.416s-6.3,0-7.865.416A2.5,2.5,0,0,0,2.743,8.355a25.352,25.352,0,0,0-.42,4.766,25.384,25.384,0,0,0,.42,4.766,2.461,2.461,0,0,0,1.781,1.724c1.565.411,7.865.411,7.865.411s6.3,0,7.865-.416a2.461,2.461,0,0,0,1.781-1.724A25.3,25.3,0,0,0,22.457,13.121Z" transform="translate(0 -1)" fill="#6b6b6b" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footersponge d-flex align-items-center">
+            <div class="addition-container ">
+                <div class="row justify-content-between">
+                    <div class="col d-flex align-items-center">
+                        <a href="https://sponge.com.ua" class="spongetext">Made in SPONGE D&D</a>
+                    </div>
+                    <div class="col d-flex justify-content-end align-items-center spongetext" style="text-decoration: none !important;">
+                        © TAC life, 2019
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
